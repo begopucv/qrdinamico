@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Redirect</title>
+</head>
+<body>
+    <script>
+        // Aquí va el enlace del script de Google Apps
+        window.location.href = "https://script.google.com/macros/s/ID_DEL_SCRIPT/exec";
+    </script>
+</body>
+</html>
