@@ -8,7 +8,7 @@
 <body>
     <script>
         // Aquí va el enlace del script de Google Apps
-        window.location.href = "https://script.google.com/macros/s/ID_DEL_SCRIPT/exec";
+        window.location.href = "https://script.google.com/macros/s/AKfycbxezDti9A0NbeINExkXXrpeTwu3nxHeLJ-3KGDfR0t4XI0bktGPdGLY0FZs7PSw8OPT5w/exec";
     </script>
 </body>
 </html>
