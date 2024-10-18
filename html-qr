@@ -7,8 +7,8 @@
 </head>
 <body>
     <script>
-        // Aquí va el enlace del script de Google Apps
-        window.location.href = "https://script.google.com/macros/s/AKfycbxezDti9A0NbeINExkXXrpeTwu3nxHeLJ-3KGDfR0t4XI0bktGPdGLY0FZs7PSw8OPT5w/exec";
+        // Redirige a la URL del script de Google Apps
+        window.location.href = "https://script.google.com/macros/s/AKfycbxezDti9A0NbeINExkXXrpeTwu3nxHeLJ-3KGDfR0t4XI0bktGPdGLY0FZs7PSw8OPT5w/exec?id=" + new URLSearchParams(window.location.search).get('id');
     </script>
 </body>
 </html>
