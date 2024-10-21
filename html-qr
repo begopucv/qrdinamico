@@ -7,10 +7,12 @@
 </head>
 <body>
     <script>
-        // Redirige a la URL del script de Google Apps
+        // Obtener el parámetro "id" de la URL
         var id = new URLSearchParams(window.location.search).get('id');
+        
+        // Si se encuentra el ID, redirigir al script de Google Apps
         if (id) {
-            window.location.href = "https://script.google.com/macros/s/AKfycbxezDti9A0NbeINExkXXrpeTwu3nxHeLJ-3KGDfR0t4XI0bktGPdGLY0FZs7PSw8OPT5w/exec" + id;
+            window.location.href = "https://script.google.com/macros/s/TU_SCRIPT_ID/exec?id=" + id;
         } else {
             document.write("ID no encontrado.");
         }
