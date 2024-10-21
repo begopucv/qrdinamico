@@ -12,7 +12,7 @@
         
         // Si se encuentra el ID, redirigir al script de Google Apps
         if (id) {
-            window.location.href = "https://script.google.com/macros/s/TU_SCRIPT_ID/exec?id=" + id;
+            window.location.href = "https://script.google.com/macros/s/1C4dfvB1nCsmfIEeR6aYVQhQzPzvHBCY2GX6tbSj6_uIGvgIJyMkCFEup/exec?id=" + id;
         } else {
             document.write("ID no encontrado.");
         }
