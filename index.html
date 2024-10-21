@@ -7,15 +7,8 @@
 </head>
 <body>
     <script>
-        // Obtener el parámetro "id" de la URL
-        var id = new URLSearchParams(window.location.search).get('id');
-        
-        // Si se encuentra el ID, redirigir al script de Google Apps
-        if (id) {
-            window.location.href = "https://script.google.com/macros/s/1C4dfvB1nCsmfIEeR6aYVQhQzPzvHBCY2GX6tbSj6_uIGvgIJyMkCFEup/exec?id=" + id;
-        } else {
-            document.write("ID no encontrado.");
-        }
+        // Redirige a la URL del script de Google Apps, añadiendo el parámetro 'id' desde el QR
+        window.location.href = "https://script.google.com/macros/s/1C4dfvB1nCsmfIEeR6aYVQhQzPzvHBCY2GX6tbSj6_uIGvgIJyMkCFEup/exec?id=" + new URLSearchParams(window.location.search).get('id');
     </script>
 </body>
 </html>
